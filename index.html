@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>John Rhad B. Baliguat</span></h1>
+                <h2>A Student Developer</h2>
+
+                <p>
+                    I am a student passionate about programming,
+                    web development, and technology. I enjoy learning
+                    new skills and creating useful projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <span>&lt;/&gt;</span>
+                </div>
+                <p>Code • Create • Learn</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <div class="about-card">
+                <div class="about-icon">👨‍💻</div>
+                <div>
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I am a student learning programming and software
+                        development. I am interested in building websites,
+                        browser games, and technology-based systems.
+                        My goal is to improve my coding skills by working
+                        on class activities and personal projects.
+                    </p>
+                    <p>
+                        I believe that practice, patience, and continuous
+                        learning are important in becoming a better developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="section-label">WHAT I'M LEARNING</p>
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Creating the structure of websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Designing layouts and responsive pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactions and game logic.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Learning programming and application logic.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>C++</h3>
+                    <p>Practicing variables, loops, arrays, and functions.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🔌</div>
+                    <h3>Arduino / IoT</h3>
+                    <p>Exploring sensors and hardware prototypes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="section-label">MY WORK</p>
+            <h2 class="section-title">My <span>Projects</span></h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-banner blue">🎮</div>
+                    <div class="project-content">
+                        <span class="project-type">GAME DEVELOPMENT</span>
+                        <h3>Base Capture Game</h3>
+                        <p>
+                            A browser game featuring team movement,
+                            base capture objectives, and scoring.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            Ask About Project ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-banner green">🏍️</div>
+                    <div class="project-content">
+                        <span class="project-type">IOT PROTOTYPE</span>
+                        <h3>MotoPhylax</h3>
+                        <p>
+                             An IoT-based motorcycle accident alert system designed
+                             to detect possible accidents, track GPS location, and
+                             send emergency alerts to support faster response.
+                        </p>
+                        <div class="tags">
+                            <span>Arduino</span>
+                            <span>GPS</span>
+                            <span>IoT</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            Ask About Project ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-banner purple">⏱️</div>
+                    <div class="project-content">
+                        <span class="project-type">WEB APPLICATION</span>
+                        <h3>Study Time Tracker</h3>
+                        <p>
+                            A learning project for organizing subjects
+                            and tracking study sessions.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>SQLite</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            Ask About Project ↗
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="project-note">
+                These project descriptions should be updated to match
+                your actual work. Add live demo links when available.
+            </p>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-card">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>
+                    Thank you for visiting my portfolio!
+                    Feel free to contact me through email.
+                </p>
+
+                <!-- Replace with your own email address -->
+                <a class="btn" href="mailto:your.email@example.com">
+                    Send Me an Email ✉
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Johnrhad Baliguat | Student Portfolio</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
